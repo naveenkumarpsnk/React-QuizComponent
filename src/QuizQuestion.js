@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 class QuizQuestion extends React.Component{
    
-    render(  )
-    {
+    render(  ){
+    return (
         <main>
         <section>
           <p> {
@@ -20,8 +20,8 @@ class QuizQuestion extends React.Component{
           </ul>
         </section>
       </main>
-    }
-    
+    )
+                }
    
 }
 export default QuizQuestion
